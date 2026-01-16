@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Head from '../components/Head.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	     <title>Blog Layout</title>
+    <Head/>
+  </head>
+  
+  <body>
+     <Nav/>
+	 <div class="bloglayout">
+    <main>
+    <slot/>
+	 </main>
+	 </div>
+      <Footer/>
+    </main>
+  </body>
+</html>
+

@@ -1,32 +1,48 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Head from '../components/Head.astro';
+---
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Log In</title>
+    <Head/>
+    <title>Log In</title>
     </head>
-
     <body>
-        <h1>Log In</h1>
+        <Nav/>
+        <main>
+            <div class="loginclass">
+                <div class="loginitem1">
+                     <img src="/images/landing_pic.jpeg" alt="Food picture" />
+                </div>
+                <div class="loginitem2">
+        <h3>Log In</h3>
+        <br>
         <form method="post" action="/api/auth/login">
             <div>
-                <label for="email">Email</label><br>
+                <label for="email">Email</label>
             <input 
                 type="email"
                 id="email" 
                 name="email" 
                 required>
                 </div>
-                <br>
                 <div>
-                <label for="password">Password</label><br>
+                <label for="password">Password</label>
             <input 
                 type="password"
                 id="password" 
                 name="password" 
                 required>
                 </div>
-                <br>
 <button type="submit">Log In</button>
+<p class="signup-text">Don't have an account?</p> 
+<a href="/signup" class="signup-btn">Sign Up</a>
         </form>
-    </body>
+        </div>
+        </div>
+        <Footer/>
+    </main>
+  </body>
 </html>

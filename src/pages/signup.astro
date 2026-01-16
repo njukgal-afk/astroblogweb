@@ -1,12 +1,22 @@
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Sign Up</title>
-    </head>
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Head from '../components/Head.astro';
+---
 
+<html lang="en">
+    <title>Sign Up</title>
+    </head>
     <body>
-        <h1>Create an Account</h1>
+        <Nav/>
+        <main>
+            <div class="signupclass">
+                <div class="signupitem1">
+                     <img src="/images/landing_pic.jpeg" alt="Food picture" />
+                </div>
+                <div class="signupitem2">
+        <h3>Create an Account</h3>
         <form method="post" action="/api/auth/register">
             <div>
                 <label for="email">Email</label><br>
@@ -28,6 +38,11 @@
                 <br>
 <button type="submit">Sign Up</button>
         </form>
-        <p>Already have an account?</p>
-    </body>
+        <p class="signup-text">Already have an account?</p>
+<a href="/login" class="signup-btn">Log In</a>
+</div>
+</div>
+          <Footer/>
+</main>
+  </body>
 </html>

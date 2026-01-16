@@ -1,0 +1,300 @@
+/* Main layout CSS*/
+body {
+  background-color: #ffe7da;
+  padding-bottom: 10%;
+}
+main {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+/* Nav CSS */
+.nav {
+  border-bottom: 1.5px solid #02631a;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-title {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Finger Paint", sans-serif;
+}
+.site-title a {
+  color: #02631a;
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 2rem;
+}
+.nav-links a {
+  color: #02631a;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif, cursive;
+  font-size: 1rem;
+}
+nav a:hover {
+  color: #ff6600;
+}
+/* Footer CSS */
+.footer {
+  background-color: #02631a;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0, auto;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.footer-text {
+  margin: 0;
+  color: #fdf8f9;
+  font-size: 13px;
+}
+/* Landing page CSS */
+.landing-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+  gap: 2rem;
+}
+.landing-page img {
+  height: 400px;
+  width: auto;
+}
+.item1 {
+  border: 1px solid #fc5c00;
+}
+.item2 {
+  border: 1px solid #fc5c00;
+  padding: 0.3rem;
+  height: 400px;
+  width: auto;
+  text-align: center;
+}
+.recentblog {
+  margin: 3 rem 0;
+}
+.recentbloggrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.bloggriditem {
+  border: 1px solid #02631a;
+  overflow: hidden;
+}
+.bloggriditem img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.bloggriditem h3 {
+  margin: 0 1rem 1rem;
+  color: #02631a;
+}
+.bloggriditem p {
+  margin: 1rem;
+  font-size: 0.9rem;
+}
+/* Button styles */
+.login-btn {
+  color: #fdf8f9;
+  background-color: #02631a;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+.login-btn:hover {
+  background-color: #ff6600;
+  color: #fdf8f9;
+  transform: translateY(-1px);
+}
+.nav-links a.login-btn {
+  color: #fdf8f9;
+}
+/* Log in page styles */
+.loginclass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.loginclass img {
+  height: 440px;
+  width: auto;
+  object-fit: cover;
+}
+.loginitem1 {
+  border: 1px solid #fc5c00;
+}
+.loginitem2 {
+  border: 1px solid #fc5c00;
+  padding: 1.5rem;
+  height: 400px;
+  width: 400px;
+  text-align: left;
+}
+.loginitem2 label {
+  font-size: 0.9rem;
+  color: #333;
+  text-align: left;
+  display: block;
+  margin: 0;
+}
+
+.loginitem2 input {
+  width: 300px;
+  padding: 0.6rem;
+  margin: 0.2rem auto 0.8rem auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  display: block;
+}
+
+.loginitem2 button {
+  width: 300px;
+  margin: 0.5rem auto 0 auto;
+  padding: 0.6rem;
+  background-color: #02631a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+}
+
+.loginitem2 button:hover {
+  background-color: #ff6600;
+}
+.signup-text {
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.signup-btn {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding: 0.6rem;
+  text-align: center;
+  border-radius: 20px;
+  border: 1.5px solid #02631a;
+  color: #02631a;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #02631a;
+  color: white;
+}
+.signupclass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.signupclass img {
+  height: 440px;
+  width: auto;
+  object-fit: cover;
+}
+.signupitem1 {
+  border: 1px solid #fc5c00;
+}
+.signupitem2 {
+  border: 1px solid #fc5c00;
+  padding: 1.5rem;
+  height: 400px;
+  width: 400px;
+  text-align: left;
+}
+.signupitem2 label {
+  font-size: 0.9rem;
+  color: #333;
+  text-align: left;
+  display: block;
+  margin: 0;
+}
+
+.signupitem2 input {
+  width: 300px;
+  padding: 0.6rem;
+  margin: 0.2rem auto 0.8rem auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  display: block;
+}
+
+.signupitem2 button {
+  width: 300px;
+  margin: 0.5rem auto 0 auto;
+  padding: 0.6rem;
+  background-color: #02631a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+}
+
+.signupitem2 button:hover {
+  background-color: #ff6600;
+}
+h1 {
+  color: #111111;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 30px;
+}
+a {
+  color: #111111;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif, cursive;
+}
+h2 {
+  font-size: 23px;
+  color: #111111;
+  font-family: "Quicksand", sans-serif, cursive;
+}
+h3 {
+  display: inline;
+  font-size: 19px;
+  color: #111111;
+  font-family: "Quicksand", sans-serif, cursive;
+}
+p {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif, cursive;
+}
+.bloglayout img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 1rem;
+}
