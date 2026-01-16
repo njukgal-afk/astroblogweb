@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Head from '../components/Head.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <Head/>
+  </head>
+  
+  <body>
+    <Nav/>
+    <main>
+    <div class="recentblog">
+        <h3>Recent Blogs</h3>
+        <div class="recentbloggrid">
+          <div class="bloggriditem">
+            <img src="/images/carrotcake.jpeg" alt="Blog 1"/>
+            <a href="/blogs/carrotcakerecipe"><h3>Carrot Cake Recipe</h3></a>
+            <p>Discover easy and delicious recipes for homemade carrot cake.</p>
+          </div>
+           <div class="bloggriditem">
+            <img src="/images/landing.jpeg" alt="Blog 2"/>
+            <a href="/blogs/carrotcakerecipe"><h3>Recipe to make carrot cake</h3></a>
+            <p>Discover easy and delicious recipes for homemade carrot cake.</p>
+          </div>
+           <div class="bloggriditem">
+            <img src="/images/landing.jpeg" alt="Blog 3"/>
+            <a href="/blogs/carrotcakerecipe"><h3>Recipe to make carrot cake</h3></a>
+            <p>Discover easy and delicious recipes for homemade carrot cake.</p>
+          </div>
+           <div class="bloggriditem">
+            <img src="/images/landing.jpeg" alt="Blog 4"/>
+            <a href="/blogs/carrotcakerecipe"><h3>Recipe to make carrot cake</h3></a>
+            <p>Discover easy and delicious recipes for homemade carrot cake.</p>
+          </div>
+      <Footer/>
+    </main>
+  </body>
+</html>
