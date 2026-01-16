@@ -1,29 +1,80 @@
 ---
-title: Title
+title: "Carrot Cake Recipe"
 layout: ../../layouts/BlogLayout.astro
+date: 2026-01-16
+source: "https://preppykitchen.com/carrot-and-walnut-cake/"
 ---
 
 # Carrot Cake Recipe
 
-2026.01.16
+**Date:** 2026.01.16
 
-Source:(https://preppykitchen.com/carrot-and-walnut-cake/)
+**Source:** https://preppykitchen.com/carrot-and-walnut-cake/
 
-This recipe produces a moist, classic carrot cake topped with tangy cream cheese frosting.
+A moist, classic carrot cake topped with tangy cream cheese frosting.
 
-![Cake Picture](/images/carrotcake.jpeg)
+![Carrot cake](/images/carrotcake.jpeg)
 
-Ingredients
-For the Cake:
-Flour: 2 ½ cups (300g) all-purpose flour.
-Leavening/Salt: 2 tsp baking powder, 1 tsp baking soda, and 1 tsp salt.
-Spices: 1 tsp ground cinnamon and ½ tsp ground nutmeg.
-Sugars: 1 cup granulated sugar and 1 cup packed light brown sugar.
-Wet Ingredients: 1 ⅓ cups vegetable oil, 4 large eggs (room temperature), and 2 tsp vanilla extract.
-Carrots: 3 cups finely grated carrots (about 1 pound/455g).
-Optional Mix-ins: 1 cup chopped pecans or walnuts.
-For the Cream Cheese Frosting:
-Cream Cheese: 1 block (8 oz/227g), softened to room temperature.
-Butter: 1 cup (2 sticks) unsalted butter, softened.
-Sugar: 4–5 cups powdered sugar.
-Vanilla: 2 tsp vanilla extract.
+---
+
+## Quick Info
+
+- **Prep time:** 20 minutes
+- **Cook time:** 35–40 minutes
+- **Total time:** ~ 1 hour
+- **Servings:** 10–12
+
+---
+
+## Ingredients
+
+### For the Cake
+
+- **2 ½ cups (300g)** all-purpose flour
+- **2 tsp** baking powder
+- **1 tsp** baking soda
+- **1 tsp** salt
+- **1 tsp** ground cinnamon
+- **½ tsp** ground nutmeg
+- **1 cup** granulated sugar
+- **1 cup** packed light brown sugar
+- **1 ⅓ cups** vegetable oil
+- **4 large** eggs (room temperature)
+- **2 tsp** vanilla extract
+- **3 cups** finely grated carrots (about 455g)
+- _(Optional)_ **1 cup** chopped pecans or walnuts
+
+### For the Cream Cheese Frosting
+
+- **8 oz (227g)** cream cheese, softened
+- **1 cup (2 sticks)** unsalted butter, softened
+- **4–5 cups** powdered sugar (to taste)
+- **2 tsp** vanilla extract
+
+---
+
+## Instructions
+
+1. Preheat the oven to **350°F (175°C)**. Grease and line your cake tins.
+2. In a bowl, whisk together the **flour, baking powder, baking soda, salt, cinnamon, and nutmeg**.
+3. In another bowl, combine the **oil, sugars, eggs, and vanilla**, then mix until smooth.
+4. Add the dry ingredients to the wet ingredients and mix until just combined.
+5. Fold in the **grated carrots** (and nuts if using).
+6. Pour into tins and bake for **35–40 minutes** (until a toothpick comes out clean).
+7. Cool completely before frosting.
+
+---
+
+## Frosting
+
+1. Beat **cream cheese + butter** until smooth.
+2. Gradually add powdered sugar until thick and spreadable.
+3. Mix in vanilla, then frost the cooled cake.
+
+---
+
+## Tips & Notes
+
+- Don’t overmix the batter — it keeps the cake tender.
+- Use freshly grated carrots for the best texture.
+- Chill the cake slightly before slicing for cleaner pieces.
