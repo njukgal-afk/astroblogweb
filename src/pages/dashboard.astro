@@ -33,12 +33,15 @@ const {data: posts, error} = await supabase
     </head>
     <body>
           <Nav/>
-          <main>
-        <h1> Dashboard</h1>
-        <p> Logged in as: {user.email}</p>
-
+          <main class="dashboard">
+            <section class="dashboard-header">
+        <h1>Dashboard</h1>
+        <p>Logged in as <strong> {user.email}</strong></p>
+        </section>
+<section class="card">
         <h2>Create Posts</h2>
         <form method="post" action="/api/posts/create">
+           
             <div>
                 <label for="title">Title</label><br>
                 <input  
@@ -59,7 +62,9 @@ const {data: posts, error} = await supabase
                       <br>
 <button type="submit">Create Post</button>
         </form>
+         </section>
 <hr>
+<section class="card">
 <h2>Your Posts</h2>
 {error && <p style="color:red;"> {error.message}</p>}
 {posts?.length ? (
@@ -82,6 +87,7 @@ const {data: posts, error} = await supabase
     ) : (
       <p>No posts yet.</p>
     )}
+    </section>
     </main>
       <Footer/>
   </body>

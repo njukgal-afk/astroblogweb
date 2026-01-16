@@ -268,6 +268,92 @@ nav a:hover {
 .signupitem2 button:hover {
   background-color: #ff6600;
 }
+/* Blog post layout CSS */
+.dashboard {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+.dashboard-header h1 {
+  margin: 0;
+  color: #02631a;
+}
+.dashboard-header p {
+  margin: 0.3rem 0 0;
+  color: #161616;
+}
+.card {
+  border: 1px solid #02631a;
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+}
+.card h2 {
+  margin-top: 0;
+  color: #02631a;
+}
+.card form div {
+  margin-bottom: 1rem;
+}
+.card label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333333;
+  margin-bottom: 0.3rem;
+}
+.card inpit,
+.card textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.card textarea {
+  width: 750px;
+  height: auto;
+}
+.card button {
+  width: 150px;
+  margin: 0.5rem auto 0 auto;
+  padding: 0.6rem;
+  background-color: #02631a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+}
+.card button:hover {
+  background-color: #ff6600;
+}
+/* Blog listing CSS */
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.card li {
+  background-color: #fdb591;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.card li h3 {
+  margin: 0 0 0 0.4rem;
+  color: #0c0c0c;
+}
+.card li p {
+  margin: 0 0 0 0.6rem;
+  color: #0f0f0f;
+}
 h1 {
   color: #111111;
   font-family: "Finger Paint", sans-serif;
