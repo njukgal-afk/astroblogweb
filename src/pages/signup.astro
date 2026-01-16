@@ -6,7 +6,9 @@ import Head from '../components/Head.astro';
 ---
 
 <html lang="en">
-    <title>Sign Up</title>
+    <head>
+        <Head/>       
+        <title>Sign Up</title>
     </head>
     <body>
         <Nav/>
@@ -24,7 +26,7 @@ import Head from '../components/Head.astro';
                 type="email"
                 id="email" 
                 name="email" 
-                required>
+                required/>
                 </div>
                 <br>
                 <div>
@@ -33,7 +35,7 @@ import Head from '../components/Head.astro';
                 type="password"
                 id="password" 
                 name="password" 
-                required>
+                required/>
                 </div>
                 <br>
 <button type="submit">Sign Up</button>

@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import type { AstroCookies } from "astro";
 
-export function createSupabseServerClient(cookies: AstroCookies) {
+export function createSupabaseServerClient(cookies: AstroCookies) {
   const supabase = createClient(
     import.meta.env.SUPABASE_URL,
     import.meta.env.SUPABASE_ANON_KEY
